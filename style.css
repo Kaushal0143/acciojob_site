@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Nunito:wght@300;400;700&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.mynavbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 600px;
+}
+.nav-menu > li {
+  list-style-type: none;
+}
+.nav-menu > li > a {
+  text-decoration: none;
+  color: #4f4f4f;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.8px;
+  margin: 0 5px;
+  text-align: center;
+}
+.downarrow {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+.my-button {
+  color: #2f80ed;
+  font-family: ABeeZee;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16.55px;
+  border: 1px solid #2f80ed;
+  padding: 13px 13px;
+  border-radius: 5px;
+}
+.marque-section {
+  background-color: #2f80ed;
+  padding: 8px, 562px, 8px, 562px;
+  gap: 10px;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: white;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-section{
+    width: 711px;
+    height:308px;
+    top: 226px;
+    left: 110px;
+    gap: 35px;
+
+}
+.first-line{
+font-family: ABeeZee, sans-serif;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+}
+.second-line{
+font-family: 'ABeeZee', sans-serif;
+font-size: 50px;
+font-style: italic;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+color: #2B2F34;
+}
+.shadow-text{
+    color: #2F80ED;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+}
+.sub-text{
+    width: 492px;
+    height:46px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#595959;
+}
+.features{
+    position: absolute;
+    width: 711px;
+    height: 77px;
+    padding: 15px, 20px, 15px, 20px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    gap: 34px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 40px 0px #00000014;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.arrow{
+    position: relative;
+    top: -20px;
+    left: 650px;
+    z-index: 0;
+}
