@@ -129,28 +129,20 @@ color: #2B2F34;
 }
 .small-block{
     width: 261px;
-height:41px;
-top: -3614px;
-left: -610px;
-padding: 10px, 20px, 10px, 20px;
-border-radius: 23px;
-gap: 10px;
-background-color:#FFFFFF;
-box-shadow: 0px 2px 40px 0px #0000001F;
-align-items: center;
-display: flex;
-padding:0px 10px;
-margin-top: 70px;
+    height:41px;
+    top: -3614px;
+    left: -610px;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 23px;
+    gap: 10px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 2px 40px 0px #0000001F;
+    align-items: center;
+    display: flex;
+    padding:0px 10px;
+    margin-top: 70px;
 }
 
-.card-section{
-width:412px;
-height: 496px;
-padding: 28px, 24px, 32px, 24px;
-border-radius: 18px;
-gap: 28px;
-box-shadow: 0px 25px 54px 0px #0000001F;
-}
 .courses{
   background-color: #ECF8FF;
   width: 100vw;
